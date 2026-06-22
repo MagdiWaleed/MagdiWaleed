@@ -158,10 +158,6 @@ follows a hands-on, build-as-you-learn path.
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MagdiWaleed&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=MagdiWaleed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
 </p>
 
