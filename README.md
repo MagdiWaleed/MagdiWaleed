@@ -12,7 +12,7 @@
   <a href="mailto:m.w.m.khalafallah@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="#">
+  <a href="https://youtube.com/@maistudentjourney?si=6DDjhzouVcIMexgK">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
   <a href="https://github.com/MagdiWaleed?tab=followers">
@@ -140,8 +140,8 @@ project at a time, in plain language. From the fundamentals to building actual A
 follows a hands-on, build-as-you-learn path.
 
 <p>
-  <a href="#"><img src="https://img.shields.io/badge/Subscribe%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Subscribe"/></a>
-  &nbsp;<i>(replace with your channel link)</i>
+  <a href="https://youtube.com/@maistudentjourney?si=6DDjhzouVcIMexgK"><img src="https://img.shields.io/badge/Subscribe%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Subscribe"/></a>
+  &nbsp;<i></i>
 </p>
 
 <br/>
