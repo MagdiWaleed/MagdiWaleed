@@ -1,6 +1,6 @@
 <!--
   ╔══════════════════════════════════════════════════════════════╗
-  ║   MagdiWaleed — GitHub Profile README                         ║
+  ║   MagdiWaleed GitHub Profile README                         ║
   ║   To use: create a repo named exactly "MagdiWaleed"          ║
   ║   and drop this file in as README.md                         ║
   ╚══════════════════════════════════════════════════════════════╝
@@ -51,10 +51,10 @@ class MagdiWaleed:
 ```
 
 - 🎙️ I build **production speech-recognition systems** for Arabic & English, optimized for real-time, low-latency inference.
-- 🤖 I design **agentic systems** — multi-step reasoning, tool use, and workflow automation with LangChain / LangGraph.
+- 🤖 I design **agentic systems** multi-step reasoning, tool use, and workflow automation with LangChain / LangGraph.
 - ☁️ I work across the **full ML lifecycle**: from model training and fine-tuning to cloud-native backends on GCP.
-- 🎓 B.Sc. in Computer Science (AI) — Cairo University, Faculty of Computers & AI.
-- 🎬 I run **[AI Student Journey](https://youtube.com/@aistudentjourney)** on YouTube — teaching coding & AI from zero.
+- 🎓 B.Sc. in Computer Science (AI) Cairo University, Faculty of Computers & AI.
+- 🎬 I run **[AI Student Journey](https://youtube.com/@aistudentjourney)** on YouTube teaching coding & AI from zero.
 - 💬 Ask me about ASR, Triton inference, LLM agents, or deploying ML at scale.
 
 ---
@@ -139,7 +139,7 @@ class MagdiWaleed:
     </td>
     <td width="50%" valign="top">
       <h3>📊 Market Analyzer Agent</h3>
-      <p>AI-powered market analyzer for the Saudi market — benchmarks products, identifies market gaps, and generates actionable recommendations through an interactive interface.</p>
+      <p>AI-powered market analyzer for the Saudi market benchmarks products, identifies market gaps, and generates actionable recommendations through an interactive interface.</p>
       <p>
         <img src="https://img.shields.io/badge/Agentic%20AI-412991?style=flat-square&logo=openai&logoColor=white"/>
         <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
@@ -178,7 +178,7 @@ class MagdiWaleed:
 <!-- ============ CERTS ============ -->
 ## 🎓 Certifications
 
-- **DeepLearning.AI TensorFlow Developer** — Coursera (2024)
+- **DeepLearning.AI TensorFlow Developer** Coursera (2024)
 
 ---
 
