@@ -54,7 +54,7 @@ class MagdiWaleed:
 - 🤖 I design **agentic systems** multi-step reasoning, tool use, and workflow automation with LangChain / LangGraph.
 - ☁️ I work across the **full ML lifecycle**: from model training and fine-tuning to cloud-native backends on GCP.
 - 🎓 B.Sc. in Computer Science (AI) Cairo University, Faculty of Computers & AI.
-- 🎬 I run **[AI Student Journey](https://youtube.com/@aistudentjourney)** on YouTube teaching coding & AI from zero.
+- 🎬 I run **[AI Student Journey](https://www.youtube.com/@mAIStudentJourney)** on YouTube teaching coding & AI from zero.
 - 💬 Ask me about ASR, Triton inference, LLM agents, or deploying ML at scale.
 
 ---
