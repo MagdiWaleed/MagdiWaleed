@@ -1,0 +1,40 @@
+name: Update Latest YouTube Videos
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-videos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # YouTube RSS feeds require the channel ID (UC...), not the @handle,
+      # so resolve it from the channel page on every run.
+      - name: Resolve YouTube channel ID
+        id: channel
+        run: |
+          CHANNEL_ID=$(curl -sL "https://www.youtube.com/@mAIStudentJourney" \
+            -H "User-Agent: Mozilla/5.0" \
+            | grep -oE '"channelId":"UC[A-Za-z0-9_-]{22}"' \
+            | head -1 | cut -d'"' -f4)
+          if [ -z "$CHANNEL_ID" ]; then
+            echo "Failed to resolve channel ID for @mAIStudentJourney" >&2
+            exit 1
+          fi
+          echo "id=$CHANNEL_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Update README with latest videos
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: YOUTUBE
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=${{ steps.channel.outputs.id }}"
+          max_post_count: 4
+          template: "- 🎬 [$title]($url)$newline"
+          commit_message: "chore: update latest YouTube videos"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
