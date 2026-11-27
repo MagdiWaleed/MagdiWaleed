@@ -41,9 +41,6 @@ Retrieval, multi-step reasoning and conversation memory for many users at once, 
 An agent that benchmarks products in the Saudi market, finds gaps, and writes recommendations you can question interactively.<br>
 <sub>LangGraph · Python</sub>
 
-### Teaching
-
-On **[AI Student Journey](https://www.youtube.com/@mAIStudentJourney)** I take complete beginners to AI developer, in Sudanese Arabic. Every video adds one or two concepts and a project that reuses everything taught before it: a calculator for variables and operators, then an ATM for conditions, functions and loops, and so on. Stage one is Python fundamentals.
 
 ### Tools I reach for
 
